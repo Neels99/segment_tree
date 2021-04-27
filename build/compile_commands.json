@@ -1,7 +1,7 @@
 [
 {
-  "directory": "/home/sl33n/repo/segment_tree/build",
-  "command": "/bin/g++-8    -g   -o CMakeFiles/prefix_sum.dir/prefix_sum.cpp.o -c /home/sl33n/repo/segment_tree/prefix_sum.cpp",
-  "file": "/home/sl33n/repo/segment_tree/prefix_sum.cpp"
+  "directory": "/home/sl33n/repository/segment_tree/build",
+  "command": "/bin/g++-8    -g   -o CMakeFiles/prefix_sum.dir/prefix_sum.cpp.o -c /home/sl33n/repository/segment_tree/prefix_sum.cpp",
+  "file": "/home/sl33n/repository/segment_tree/prefix_sum.cpp"
 }
 ]

@@ -48,8 +48,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/sl33n/repo/segment_tree/build",
-		"source" : "/home/sl33n/repo/segment_tree"
+		"build" : "/home/sl33n/repository/segment_tree/build",
+		"source" : "/home/sl33n/repository/segment_tree"
 	},
 	"version" : 
 	{

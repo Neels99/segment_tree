@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sl33n/repo/segment_tree
+CMAKE_SOURCE_DIR = /home/sl33n/repository/segment_tree
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sl33n/repo/segment_tree/build
+CMAKE_BINARY_DIR = /home/sl33n/repository/segment_tree/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ clean: CMakeFiles/prefix_sum.dir/clean
 CMakeFiles/prefix_sum.dir/all:
 	$(MAKE) -f CMakeFiles/prefix_sum.dir/build.make CMakeFiles/prefix_sum.dir/depend
 	$(MAKE) -f CMakeFiles/prefix_sum.dir/build.make CMakeFiles/prefix_sum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sl33n/repo/segment_tree/build/CMakeFiles --progress-num=1,2 "Built target prefix_sum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sl33n/repository/segment_tree/build/CMakeFiles --progress-num=1,2 "Built target prefix_sum"
 .PHONY : CMakeFiles/prefix_sum.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/prefix_sum.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sl33n/repo/segment_tree/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sl33n/repository/segment_tree/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prefix_sum.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sl33n/repo/segment_tree/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sl33n/repository/segment_tree/build/CMakeFiles 0
 .PHONY : CMakeFiles/prefix_sum.dir/rule
 
 # Convenience name for target.

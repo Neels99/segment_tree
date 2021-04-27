@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/sl33n/repo/segment_tree/prefix_sum.cpp
+/home/sl33n/repository/segment_tree/prefix_sum.cpp
 iostream
 -
 vector
+-
+deque
 -
 

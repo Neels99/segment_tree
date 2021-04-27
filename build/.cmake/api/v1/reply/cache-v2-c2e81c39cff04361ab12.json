@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/sl33n/repo/segment_tree/build"
+			"value" : "/home/sl33n/repository/segment_tree/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -595,7 +595,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/sl33n/repo/segment_tree"
+			"value" : "/home/sl33n/repository/segment_tree"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -651,7 +651,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/make"
+			"value" : "/usr/bin/gmake"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -1131,7 +1131,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/sl33n/repo/segment_tree/build"
+			"value" : "/home/sl33n/repository/segment_tree/build"
 		},
 		{
 			"name" : "SegmentTree_SOURCE_DIR",
@@ -1143,7 +1143,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/sl33n/repo/segment_tree"
+			"value" : "/home/sl33n/repository/segment_tree"
 		}
 	],
 	"kind" : "cache",

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sl33n/repo/segment_tree/prefix_sum.cpp" "/home/sl33n/repo/segment_tree/build/CMakeFiles/prefix_sum.dir/prefix_sum.cpp.o"
+  "/home/sl33n/repository/segment_tree/prefix_sum.cpp" "/home/sl33n/repository/segment_tree/build/CMakeFiles/prefix_sum.dir/prefix_sum.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
