@@ -87,9 +87,9 @@ public:
 
     void add(int value)
     {
-        cout << "n: " << n << endl;
-        ++n;
-        update(n, 0, n, n, value);
+        //cout << "n: " << n << endl;
+        //++n;
+        update(1, 0, n - 1, n, value);
         
     }
 };

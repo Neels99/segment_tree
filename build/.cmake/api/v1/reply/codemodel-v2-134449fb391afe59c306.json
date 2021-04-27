@@ -1,0 +1,86 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SegmentTree",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "fast_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-fast_test-Debug-187ab3aea602601de60b.json",
+					"name" : "fast_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tree1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tree1-Debug-7f1f9a4d877b8ad5898b.json",
+					"name" : "tree1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tree2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tree2-Debug-1000b62077515de973a6.json",
+					"name" : "tree2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tree3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tree3-Debug-1f41b0fe72ec306310a3.json",
+					"name" : "tree3",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sl33n/repository/segment_tree/build",
+		"source" : "/home/sl33n/repository/segment_tree"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

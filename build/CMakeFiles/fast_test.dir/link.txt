@@ -1,0 +1,1 @@
+/bin/g++-8  -g   CMakeFiles/fast_test.dir/fast_test.cpp.o  -o fast_test 

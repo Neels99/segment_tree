@@ -1,0 +1,1 @@
+/bin/g++-8  -g   CMakeFiles/tree.dir/main.cpp.o  -o tree 
