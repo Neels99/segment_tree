@@ -37,9 +37,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "tree1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-tree1-Debug-7f1f9a4d877b8ad5898b.json",
-					"name" : "tree1",
+					"id" : "prefix_sum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prefix_sum-Debug-c2f702e2f12dd63ddc4c.json",
+					"name" : "prefix_sum",
 					"projectIndex" : 0
 				}
 			]

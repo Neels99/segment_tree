@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "tree1"
+			"path" : "prefix_sum"
 		}
 	],
 	"backtrace" : 1,
@@ -24,7 +24,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 4,
+				"line" : 9,
 				"parent" : 0
 			}
 		]
@@ -45,7 +45,7 @@
 			]
 		}
 	],
-	"id" : "tree1::@6890427a1f51a3e7e1df",
+	"id" : "prefix_sum::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -61,8 +61,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "tree1",
-	"nameOnDisk" : "tree1",
+	"name" : "prefix_sum",
+	"nameOnDisk" : "prefix_sum",
 	"paths" : 
 	{
 		"build" : ".",
@@ -83,7 +83,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "tree1.cpp",
+			"path" : "prefix_sum.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

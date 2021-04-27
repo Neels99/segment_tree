@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named tree1
+# Target rules for targets named prefix_sum
 
 # Build rule for target.
-tree1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tree1
-.PHONY : tree1
+prefix_sum: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 prefix_sum
+.PHONY : prefix_sum
 
 # fast build rule for target.
-tree1/fast:
-	$(MAKE) -f CMakeFiles/tree1.dir/build.make CMakeFiles/tree1.dir/build
-.PHONY : tree1/fast
+prefix_sum/fast:
+	$(MAKE) -f CMakeFiles/prefix_sum.dir/build.make CMakeFiles/prefix_sum.dir/build
+.PHONY : prefix_sum/fast
 
-tree1.o: tree1.cpp.o
+prefix_sum.o: prefix_sum.cpp.o
 
-.PHONY : tree1.o
+.PHONY : prefix_sum.o
 
 # target to build an object file
-tree1.cpp.o:
-	$(MAKE) -f CMakeFiles/tree1.dir/build.make CMakeFiles/tree1.dir/tree1.cpp.o
-.PHONY : tree1.cpp.o
+prefix_sum.cpp.o:
+	$(MAKE) -f CMakeFiles/prefix_sum.dir/build.make CMakeFiles/prefix_sum.dir/prefix_sum.cpp.o
+.PHONY : prefix_sum.cpp.o
 
-tree1.i: tree1.cpp.i
+prefix_sum.i: prefix_sum.cpp.i
 
-.PHONY : tree1.i
+.PHONY : prefix_sum.i
 
 # target to preprocess a source file
-tree1.cpp.i:
-	$(MAKE) -f CMakeFiles/tree1.dir/build.make CMakeFiles/tree1.dir/tree1.cpp.i
-.PHONY : tree1.cpp.i
+prefix_sum.cpp.i:
+	$(MAKE) -f CMakeFiles/prefix_sum.dir/build.make CMakeFiles/prefix_sum.dir/prefix_sum.cpp.i
+.PHONY : prefix_sum.cpp.i
 
-tree1.s: tree1.cpp.s
+prefix_sum.s: prefix_sum.cpp.s
 
-.PHONY : tree1.s
+.PHONY : prefix_sum.s
 
 # target to generate assembly for a file
-tree1.cpp.s:
-	$(MAKE) -f CMakeFiles/tree1.dir/build.make CMakeFiles/tree1.dir/tree1.cpp.s
-.PHONY : tree1.cpp.s
+prefix_sum.cpp.s:
+	$(MAKE) -f CMakeFiles/prefix_sum.dir/build.make CMakeFiles/prefix_sum.dir/prefix_sum.cpp.s
+.PHONY : prefix_sum.cpp.s
 
 # Help Target
 help:
@@ -158,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... tree1"
-	@echo "... tree1.o"
-	@echo "... tree1.i"
-	@echo "... tree1.s"
+	@echo "... prefix_sum"
+	@echo "... prefix_sum.o"
+	@echo "... prefix_sum.i"
+	@echo "... prefix_sum.s"
 .PHONY : help
 
 

@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = /home/sl33n/repo/segment_tree/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/tree1.dir/all
+all: CMakeFiles/prefix_sum.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/tree1.dir/clean
+clean: CMakeFiles/prefix_sum.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/tree1.dir
+# Target rules for target CMakeFiles/prefix_sum.dir
 
 # All Build rule for target.
-CMakeFiles/tree1.dir/all:
-	$(MAKE) -f CMakeFiles/tree1.dir/build.make CMakeFiles/tree1.dir/depend
-	$(MAKE) -f CMakeFiles/tree1.dir/build.make CMakeFiles/tree1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sl33n/repo/segment_tree/build/CMakeFiles --progress-num=1,2 "Built target tree1"
-.PHONY : CMakeFiles/tree1.dir/all
+CMakeFiles/prefix_sum.dir/all:
+	$(MAKE) -f CMakeFiles/prefix_sum.dir/build.make CMakeFiles/prefix_sum.dir/depend
+	$(MAKE) -f CMakeFiles/prefix_sum.dir/build.make CMakeFiles/prefix_sum.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sl33n/repo/segment_tree/build/CMakeFiles --progress-num=1,2 "Built target prefix_sum"
+.PHONY : CMakeFiles/prefix_sum.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/tree1.dir/rule: cmake_check_build_system
+CMakeFiles/prefix_sum.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sl33n/repo/segment_tree/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/tree1.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prefix_sum.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/sl33n/repo/segment_tree/build/CMakeFiles 0
-.PHONY : CMakeFiles/tree1.dir/rule
+.PHONY : CMakeFiles/prefix_sum.dir/rule
 
 # Convenience name for target.
-tree1: CMakeFiles/tree1.dir/rule
+prefix_sum: CMakeFiles/prefix_sum.dir/rule
 
-.PHONY : tree1
+.PHONY : prefix_sum
 
 # clean rule for target.
-CMakeFiles/tree1.dir/clean:
-	$(MAKE) -f CMakeFiles/tree1.dir/build.make CMakeFiles/tree1.dir/clean
-.PHONY : CMakeFiles/tree1.dir/clean
+CMakeFiles/prefix_sum.dir/clean:
+	$(MAKE) -f CMakeFiles/prefix_sum.dir/build.make CMakeFiles/prefix_sum.dir/clean
+.PHONY : CMakeFiles/prefix_sum.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

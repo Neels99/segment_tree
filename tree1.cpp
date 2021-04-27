@@ -13,7 +13,8 @@ using namespace std;
 class SegTree
 {
 private:
-    int tree[TREE_SIZE];
+    vector<int> tree;
+    //int tree[TREE_SIZE];
     int n = 0;
 
 private:
@@ -71,6 +72,7 @@ private:
 public:
     void init(vector<int> &a)
     {
+        tree.resize(TREE_SIZE, 0);
         build(a, 1, 0, a.size() - 1);
         n = a.size();
     }
@@ -82,14 +84,16 @@ public:
 
     void change(int pos, int new_value)
     {
+        cout << n << " " << pos << endl; 
         update(1, 0, n - 1, pos, new_value);
     }
 
     void add(int value)
     {
         //cout << "n: " << n << endl;
-        //++n;
+        ++n;
         update(1, 0, n - 1, n, value);
+        //n++;
         
     }
 };
@@ -104,9 +108,10 @@ int main()
     cout << tree.get_sum(1, 5) << endl;
     //tree.add(10000);
     tree.change(5, 8);
-    cout << tree.get_sum(1, 5) << endl;
+    cout << tree.get_sum(1, 6) << endl;
     // tree.change(6, 1);
-    tree.add(0);
-    cout << tree.get_sum(1, 5) << endl;
+    //tree.change(6, 1);
+    tree.add(1);
+    cout << tree.get_sum(1, 6) << endl;
     cout << endl;
 }
