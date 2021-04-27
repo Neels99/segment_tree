@@ -56,6 +56,32 @@ public:
         sum.push_back(v);
     }
 
+    void remove(int index)
+    {
+        if ((sum.size() <= index) && (index < 0))
+        {
+            throw std::out_of_range("size of sum < index in prefix_sum.remove");
+        }
+        if (sum.size() - 1 == index)
+        {
+            sum.pop_back();
+        }
+        else
+        {
+            int v;
+            if (index-1 < 0){
+                v = sum[index];
+            } else {
+                v = sum[index] - sum[index-1];
+            }
+            for (auto item = sum.begin() + index + 1; item != sum.end(); item++)
+            {
+                *item -= v;
+            }
+            sum.erase(sum.begin() + index);
+        }
+    }
+
 public:
     void PRINT()
     {
@@ -79,5 +105,9 @@ int main()
     prefSum.PRINT();
 
     prefSum.add(100);
+    prefSum.PRINT();
+
+
+    prefSum.remove(10);
     prefSum.PRINT();
 }
