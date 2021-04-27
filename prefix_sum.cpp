@@ -14,10 +14,14 @@ class PrefSum
     deque<int> sum;
 private:
     void resize(){
+        int delta = sum[max_size-1];
         for (int i = 0; i < max_size; i++){
+            //delta += sum.front();
             sum.pop_front();
         }
-        // sum.
+        for (auto& item : sum){
+            item -= delta;
+        }
     }
 
 public:
@@ -38,13 +42,16 @@ public:
         if (sum.size() >= real_max_size){
             resize();
         }
-        sum.push_back(v);
+        int value = v;
+        if (!sum.empty()){
+            value += sum.back();
+        }
+        sum.push_back(value);
     }
 
 public:
     void PRINT()
     {
-        //for (auto item : sum)
         for (int i = 0; i < sum.size(); i++)
         {
             cout << sum[i] << " ";
