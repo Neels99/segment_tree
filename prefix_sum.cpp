@@ -12,14 +12,18 @@ class PrefSum
     const int max_size = 10;
     const int real_max_size = max_size * 2;
     deque<int> sum;
+
 private:
-    void resize(){
-        int delta = sum[max_size-1];
-        for (int i = 0; i < max_size; i++){
+    void resize()
+    {
+        int delta = sum[max_size - 1];
+        for (int i = 0; i < max_size; i++)
+        {
             //delta += sum.front();
             sum.pop_front();
         }
-        for (auto& item : sum){
+        for (auto &item : sum)
+        {
             item -= delta;
         }
     }
@@ -28,7 +32,8 @@ public:
     PrefSum(vector<int> a)
     {
         int i = 0;
-        if (sum.empty()) {
+        if (sum.empty())
+        {
             sum.push_back(a[i]);
             i++;
         }
@@ -38,12 +43,15 @@ public:
         }
     }
 
-    void add(int v){
-        if (sum.size() >= real_max_size){
+    void add(int v)
+    {
+        if (sum.size() >= real_max_size)
+        {
             resize();
         }
         int value = v;
-        if (!sum.empty()){
+        if (!sum.empty())
+        {
             value += sum.back();
         }
         sum.push_back(value);
