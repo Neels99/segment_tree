@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sl33n/repository/segment_tree
+CMAKE_SOURCE_DIR = /home/sl33n/repo/segment_tree
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sl33n/repository/segment_tree/build
+CMAKE_BINARY_DIR = /home/sl33n/repo/segment_tree/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sl33n/repository/segment_tree/build/CMakeFiles /home/sl33n/repository/segment_tree/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sl33n/repo/segment_tree/build/CMakeFiles /home/sl33n/repo/segment_tree/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sl33n/repository/segment_tree/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sl33n/repo/segment_tree/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,45 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named tree3
-
-# Build rule for target.
-tree3: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tree3
-.PHONY : tree3
-
-# fast build rule for target.
-tree3/fast:
-	$(MAKE) -f CMakeFiles/tree3.dir/build.make CMakeFiles/tree3.dir/build
-.PHONY : tree3/fast
-
-#=============================================================================
-# Target rules for targets named fast_test
-
-# Build rule for target.
-fast_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 fast_test
-.PHONY : fast_test
-
-# fast build rule for target.
-fast_test/fast:
-	$(MAKE) -f CMakeFiles/fast_test.dir/build.make CMakeFiles/fast_test.dir/build
-.PHONY : fast_test/fast
-
-#=============================================================================
-# Target rules for targets named tree2
-
-# Build rule for target.
-tree2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tree2
-.PHONY : tree2
-
-# fast build rule for target.
-tree2/fast:
-	$(MAKE) -f CMakeFiles/tree2.dir/build.make CMakeFiles/tree2.dir/build
-.PHONY : tree2/fast
-
-#=============================================================================
 # Target rules for targets named tree1
 
 # Build rule for target.
@@ -161,33 +122,6 @@ tree1: cmake_check_build_system
 tree1/fast:
 	$(MAKE) -f CMakeFiles/tree1.dir/build.make CMakeFiles/tree1.dir/build
 .PHONY : tree1/fast
-
-fast_test.o: fast_test.cpp.o
-
-.PHONY : fast_test.o
-
-# target to build an object file
-fast_test.cpp.o:
-	$(MAKE) -f CMakeFiles/fast_test.dir/build.make CMakeFiles/fast_test.dir/fast_test.cpp.o
-.PHONY : fast_test.cpp.o
-
-fast_test.i: fast_test.cpp.i
-
-.PHONY : fast_test.i
-
-# target to preprocess a source file
-fast_test.cpp.i:
-	$(MAKE) -f CMakeFiles/fast_test.dir/build.make CMakeFiles/fast_test.dir/fast_test.cpp.i
-.PHONY : fast_test.cpp.i
-
-fast_test.s: fast_test.cpp.s
-
-.PHONY : fast_test.s
-
-# target to generate assembly for a file
-fast_test.cpp.s:
-	$(MAKE) -f CMakeFiles/fast_test.dir/build.make CMakeFiles/fast_test.dir/fast_test.cpp.s
-.PHONY : fast_test.cpp.s
 
 tree1.o: tree1.cpp.o
 
@@ -216,60 +150,6 @@ tree1.cpp.s:
 	$(MAKE) -f CMakeFiles/tree1.dir/build.make CMakeFiles/tree1.dir/tree1.cpp.s
 .PHONY : tree1.cpp.s
 
-tree2.o: tree2.cpp.o
-
-.PHONY : tree2.o
-
-# target to build an object file
-tree2.cpp.o:
-	$(MAKE) -f CMakeFiles/tree2.dir/build.make CMakeFiles/tree2.dir/tree2.cpp.o
-.PHONY : tree2.cpp.o
-
-tree2.i: tree2.cpp.i
-
-.PHONY : tree2.i
-
-# target to preprocess a source file
-tree2.cpp.i:
-	$(MAKE) -f CMakeFiles/tree2.dir/build.make CMakeFiles/tree2.dir/tree2.cpp.i
-.PHONY : tree2.cpp.i
-
-tree2.s: tree2.cpp.s
-
-.PHONY : tree2.s
-
-# target to generate assembly for a file
-tree2.cpp.s:
-	$(MAKE) -f CMakeFiles/tree2.dir/build.make CMakeFiles/tree2.dir/tree2.cpp.s
-.PHONY : tree2.cpp.s
-
-tree3.o: tree3.cpp.o
-
-.PHONY : tree3.o
-
-# target to build an object file
-tree3.cpp.o:
-	$(MAKE) -f CMakeFiles/tree3.dir/build.make CMakeFiles/tree3.dir/tree3.cpp.o
-.PHONY : tree3.cpp.o
-
-tree3.i: tree3.cpp.i
-
-.PHONY : tree3.i
-
-# target to preprocess a source file
-tree3.cpp.i:
-	$(MAKE) -f CMakeFiles/tree3.dir/build.make CMakeFiles/tree3.dir/tree3.cpp.i
-.PHONY : tree3.cpp.i
-
-tree3.s: tree3.cpp.s
-
-.PHONY : tree3.s
-
-# target to generate assembly for a file
-tree3.cpp.s:
-	$(MAKE) -f CMakeFiles/tree3.dir/build.make CMakeFiles/tree3.dir/tree3.cpp.s
-.PHONY : tree3.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -278,22 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... tree3"
-	@echo "... fast_test"
-	@echo "... tree2"
 	@echo "... tree1"
-	@echo "... fast_test.o"
-	@echo "... fast_test.i"
-	@echo "... fast_test.s"
 	@echo "... tree1.o"
 	@echo "... tree1.i"
 	@echo "... tree1.s"
-	@echo "... tree2.o"
-	@echo "... tree2.i"
-	@echo "... tree2.s"
-	@echo "... tree3.o"
-	@echo "... tree3.i"
-	@echo "... tree3.s"
 .PHONY : help
 
 

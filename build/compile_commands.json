@@ -1,22 +1,7 @@
 [
 {
-  "directory": "/home/sl33n/repository/segment_tree/build",
-  "command": "/bin/g++-8    -g   -o CMakeFiles/tree3.dir/tree3.cpp.o -c /home/sl33n/repository/segment_tree/tree3.cpp",
-  "file": "/home/sl33n/repository/segment_tree/tree3.cpp"
-},
-{
-  "directory": "/home/sl33n/repository/segment_tree/build",
-  "command": "/bin/g++-8    -g   -o CMakeFiles/fast_test.dir/fast_test.cpp.o -c /home/sl33n/repository/segment_tree/fast_test.cpp",
-  "file": "/home/sl33n/repository/segment_tree/fast_test.cpp"
-},
-{
-  "directory": "/home/sl33n/repository/segment_tree/build",
-  "command": "/bin/g++-8    -g   -o CMakeFiles/tree2.dir/tree2.cpp.o -c /home/sl33n/repository/segment_tree/tree2.cpp",
-  "file": "/home/sl33n/repository/segment_tree/tree2.cpp"
-},
-{
-  "directory": "/home/sl33n/repository/segment_tree/build",
-  "command": "/bin/g++-8    -g   -o CMakeFiles/tree1.dir/tree1.cpp.o -c /home/sl33n/repository/segment_tree/tree1.cpp",
-  "file": "/home/sl33n/repository/segment_tree/tree1.cpp"
+  "directory": "/home/sl33n/repo/segment_tree/build",
+  "command": "/bin/g++-8    -g   -o CMakeFiles/tree1.dir/tree1.cpp.o -c /home/sl33n/repo/segment_tree/tree1.cpp",
+  "file": "/home/sl33n/repo/segment_tree/tree1.cpp"
 }
 ]

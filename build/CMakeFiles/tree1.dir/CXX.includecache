@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/sl33n/repository/segment_tree/tree3.cpp
-bits/stdc++.h
+/home/sl33n/repo/segment_tree/tree1.cpp
+iostream
+-
+vector
+-
+map
 -
 
