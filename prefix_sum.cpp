@@ -49,12 +49,11 @@ public:
         {
             resize();
         }
-        int value = v;
         if (!sum.empty())
         {
-            value += sum.back();
+            v += sum.back();
         }
-        sum.push_back(value);
+        sum.push_back(v);
     }
 
 public:
