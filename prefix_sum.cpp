@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <deque>
+#include <map>
 using namespace std;
 
 // class a{
@@ -31,15 +32,8 @@ private:
 public:
     PrefSum(vector<int> a)
     {
-        int i = 0;
-        if (sum.empty())
-        {
-            sum.push_back(a[i]);
-            i++;
-        }
-        for (; i < a.size(); i++)
-        {
-            sum.push_back(sum.back() + a[i]);
+        for (auto item : a){
+            add(item);
         }
     }
 
